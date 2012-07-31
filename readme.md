@@ -1,6 +1,6 @@
 # [Laravel](http://laravel.com) Quickstart for [Pagodabox](https://pagodabox.com/)
 
-Get a copy of Laravel running on Pagodabox in seconds.
+This is my laravel boilerplate
 
 Based on the Boxfile method from: http://forums.laravel.com/viewtopic.php?id=890
 
