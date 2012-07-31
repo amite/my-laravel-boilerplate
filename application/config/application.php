@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'index' => 'index.php',
+	'index' => '',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -155,7 +155,8 @@ return array(
 		'Event'      	=> 'Laravel\\Event',
 		'File'       	=> 'Laravel\\File',
 		'Filter'     	=> 'Laravel\\Routing\\Filter',
-		'Form'       	=> 'Laravel\\Form',
+		'Form' 			=> 'Bootstrapper\\Form',
+		'Paginator'		=> 'Bootstrapper\\Paginator',
 		'Hash'       	=> 'Laravel\\Hash',
 		'HTML'       	=> 'Laravel\\HTML',
 		'Input'      	=> 'Laravel\\Input',
@@ -180,6 +181,23 @@ return array(
 		'URI'        	=> 'Laravel\\URI',
 		'Validator'  	=> 'Laravel\\Validator',
 		'View'       	=> 'Laravel\\View',
+		'Alert'         => 'Bootstrapper\\Alert',
+		'Badges'        => 'Bootstrapper\\Badges',
+		'Breadcrumbs'   => 'Bootstrapper\\Breadcrumbs',
+		'Buttons'       => 'Bootstrapper\\Buttons',
+		'ButtonGroup'   => 'Bootstrapper\\ButtonGroup',
+		'ButtonToolbar' => 'Bootstrapper\\ButtonToolbar',
+		'Carousel'      => 'Bootstrapper\\Carousel',
+		'DropdownButton'=> 'Bootstrapper\\DropdownButton',
+		'Helpers'       => 'Bootstrapper\\Helpers',
+		'Icons'         => 'Bootstrapper\\Icons',
+		'Labels'        => 'Bootstrapper\\Labels',
+		'Navbar'        => 'Bootstrapper\\Navbar',
+		'Navigation'    => 'Bootstrapper\\Navigation',
+		'Progress'	    => 'Bootstrapper\\Progress',
+		'SplitDropdownButton'   => 'Bootstrapper\\SplitDropdownButton',
+		'Tabbable'              => 'Bootstrapper\\Tabbable',
+		'Typeahead'             => 'Bootstrapper\\Typeahead', 
 	),
 
 );

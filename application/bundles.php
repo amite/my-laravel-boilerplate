@@ -36,5 +36,7 @@
 return array(
 
 	'docs' => array('handles' => 'docs'),
-
+	'bootstrapper' => array('auto' => true),
+	'chromephp' => array('auto' => true),
+	'plant' => array('auto' => true),
 );
