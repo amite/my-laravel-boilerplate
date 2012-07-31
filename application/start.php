@@ -171,3 +171,14 @@ if ( ! Request::cli() and Config::get('session.driver') !== '')
 {
 	Session::load();
 }
+
+/*
+|--------------------------------------------------------------------------
+| Start / Load up backbone assets
+|--------------------------------------------------------------------------
+|
+*/
+
+Asset::container('backbone')->add('underscore',  'js/libs/underscore.js', 'jquery');
+Asset::container('backbone')->add('backbone',  'js/libs/backbone.js', array('jquery', 'underscore'));
+Asset::container('backbone')->add('app',  'js/app.js', array('jquery', 'underscore', 'backbone'));
